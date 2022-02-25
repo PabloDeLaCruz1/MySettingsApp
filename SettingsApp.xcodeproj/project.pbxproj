@@ -13,6 +13,8 @@
 		FE699F0827C71E8100E4368C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE699F0627C71E8100E4368C /* Main.storyboard */; };
 		FE699F0A27C71E8400E4368C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE699F0927C71E8400E4368C /* Assets.xcassets */; };
 		FE699F0D27C71E8400E4368C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE699F0B27C71E8400E4368C /* LaunchScreen.storyboard */; };
+		FE699F1527C7239F00E4368C /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE699F1427C7239F00E4368C /* SettingsTableViewCell.swift */; };
+		FE699F1727C7318400E4368C /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE699F1627C7318400E4368C /* SwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FE699F0927C71E8400E4368C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE699F0C27C71E8400E4368C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE699F0E27C71E8400E4368C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE699F1427C7239F00E4368C /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		FE699F1627C7318400E4368C /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FE699F0227C71E8100E4368C /* SceneDelegate.swift */,
 				FE699F0427C71E8100E4368C /* ViewController.swift */,
 				FE699F0627C71E8100E4368C /* Main.storyboard */,
+				FE699F1427C7239F00E4368C /* SettingsTableViewCell.swift */,
+				FE699F1627C7318400E4368C /* SwitchTableViewCell.swift */,
 				FE699F0927C71E8400E4368C /* Assets.xcassets */,
 				FE699F0B27C71E8400E4368C /* LaunchScreen.storyboard */,
 				FE699F0E27C71E8400E4368C /* Info.plist */,
@@ -140,6 +146,8 @@
 			files = (
 				FE699F0527C71E8100E4368C /* ViewController.swift in Sources */,
 				FE699F0127C71E8100E4368C /* AppDelegate.swift in Sources */,
+				FE699F1727C7318400E4368C /* SwitchTableViewCell.swift in Sources */,
+				FE699F1527C7239F00E4368C /* SettingsTableViewCell.swift in Sources */,
 				FE699F0327C71E8100E4368C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
